@@ -6,37 +6,49 @@
 
 Run the following command to clone the repository:
 
-```bash
-git clone https://gitlab.com/mountblue/cohort-16-python/anuragm/django-toy-project.git
+```Terminal
+git clone git@github.com:acemourya/WebApp.git
 ```
 
 After succesfully cloning the repository, move the current directory to webapp by running the following command:
 
-```bash
+```Terminal
 cd webapp
 ```
 
-## 2 Create and write codes in files:
+## 2 Create dir and files:
 
-1. Create dist.index.html
-2. Create src/index.js and src/home.js
+1. Create dist/index.html
+2. Create src/index.js, src/home.js, src/style.css, src/home.js and webpack.config.js
 
 ## 3. Install dependencies -
 
 Install the requirements for the project:
 
-```bash
+```Terminal
 $ npm install
 $ npm i webpack webpack-cli --save
 $ npm i --save-dev style-loader css-loader
 $ npm i image-webpack-loader --save-dev
 $ npm i webpack-dev-server --save-dev
-$ npm run build
-$ npm start
 or
 $ npm install package.json
 ```
 
-## 4. For stoping runable project
+## 4. Implement the code according to requirement inside:
+
+1. Create dist/index.html
+2. Create src/index.js, src/home.js, src/style.css, src/home.js and webpack.config.js
+
+## 5. Execute the code by command
+
+```Terminal
+$ npm run build
+$ npm start
+```
+
+## 6. For stoping runable project
 
 In terminal press: **ctrl + C**
+
+Note: Bundle of js, css manify in dist directory main.js and image in dist directory.
